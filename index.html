@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="tictac.css">
+</head>
+<body>
+    <div class="home">
+        <div class="item" >Home</div>
+        <div class="item" href=".container">Play TicTacToe</div>
+        <div class="item" href="#info">About Game</div>
+    </div>
+    <br><br><br><br><br>
+    <div class="container">
+        <h1>Tic Tac Toe</h1>
+        <div id="turnIndicator">X's turn</div>
+        <div class="board" id="board"></div>
+        <button id="resetButton">Reset</button>
+        <div id="result"></div>
+    </div>
+    <br>
+    <div id="info">
+       <h2>Tic Tac Toe</h2>
+       The game is played on a grid that's 3 squares by 3 squares.
+You are X , your friend (or the computer in this case) is O . Players take turns putting their marks in empty squares.
+The first player to get 3 of her marks in a row (up, down, across, or diagonally) is the winner.
+When all 9 squares are full, the game is over. If no player has 3 marks in a row, the game ends in a tie.
+
+    </div>
+    
+    <script src="tic.js"></script>
+</body>
+</html>
